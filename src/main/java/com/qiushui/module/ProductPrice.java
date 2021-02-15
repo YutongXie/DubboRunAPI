@@ -22,4 +22,12 @@ public class ProductPrice implements Serializable {
     public void setDate(int date) {
         this.date = date;
     }
+
+    public String getName() {
+        return name;
+    }
+
+    public void setName(String name) {
+        this.name = name;
+    }
 }
